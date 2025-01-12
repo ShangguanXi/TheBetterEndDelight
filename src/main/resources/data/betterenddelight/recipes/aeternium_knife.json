@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "betterend:aeternium_ingot"
+  },
+  "addition": {
+    "item": "betterend:leather_wrapped_stick"
+  },
+  "result": {
+    "item": "betterenddelight:aeternium_knife"
+  },
+  "template": {
+    "item": "betterend:tool_assembly_smithing_template"
+  }
+}
