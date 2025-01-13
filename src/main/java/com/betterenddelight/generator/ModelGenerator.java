@@ -3,6 +3,7 @@ package com.betterenddelight.generator;
 import com.betterenddelight.BetterEndDelight;
 import com.betterenddelight.registers.blocks.Crates;
 import com.betterenddelight.registers.items.Foods;
+import com.betterenddelight.registers.items.Knives;
 import com.nhoryzon.mc.farmersdelight.registry.BlocksRegistry;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -28,6 +29,12 @@ public class ModelGenerator extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+        itemModelGenerator.register(Knives.THALLASIUM_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(Knives.TERMINITE_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(Knives.AETERNIUM_KNIFE, Models.HANDHELD);
+
+
         itemModelGenerator.register(Foods.END_FISH_SLICE, Models.GENERATED);
         itemModelGenerator.register(Foods.COOKED_END_FISH_SLICE, Models.GENERATED);
 

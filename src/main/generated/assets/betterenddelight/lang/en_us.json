@@ -1,3 +1,10 @@
 {
-  "block.betterenddelight.blossom_berry_crate": "Blossom Berry Crate"
+  "block.betterenddelight.blossom_berry_crate": "Blossom Berry Crate",
+  "block.betterenddelight.shadow_berry_crate": "Shadow Berry Crate",
+  "item.betterenddelight.aeternium_knife": "Aeternium Knife",
+  "item.betterenddelight.cooked_end_fish_slice": "Cooked End Fish Slice",
+  "item.betterenddelight.end_fish_slice": "End Fish Slice",
+  "item.betterenddelight.terminite_knife": "Terminite Knife",
+  "item.betterenddelight.thallasium_knife": "Thallasium Knife",
+  "itemGroup.better_end_delight": "The Better End Delight"
 }
