@@ -1,5 +1,6 @@
 package com.betterenddelight;
 
+import com.betterenddelight.registers.BlockRegister;
 import com.betterenddelight.registers.ItemGroupRegister;
 import com.betterenddelight.registers.ItemRegister;
 import net.fabricmc.api.ModInitializer;
@@ -27,7 +28,7 @@ public class BetterEndDelight implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ItemGroupRegister.initialize();
-
+		BlockRegister.initialize();
 		ItemRegister.initialize();
 		LOGGER.info("Hello Fabric world!");
 	}
