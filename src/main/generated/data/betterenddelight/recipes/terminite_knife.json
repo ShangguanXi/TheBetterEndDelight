@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
-  "base": {
-    "item": "betterend:thallasium_ingot"
-  },
   "addition": {
     "item": "minecraft:stick"
   },
+  "base": {
+    "item": "betterend:terminite_ingot"
+  },
   "result": {
-    "item": "betterenddelight:thallasium_knife"
+    "item": "betterenddelight:terminite_knife"
   },
   "template": {
     "item": "betterend:tool_assembly_smithing_template"

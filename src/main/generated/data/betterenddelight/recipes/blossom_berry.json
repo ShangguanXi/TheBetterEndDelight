@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "betterenddelight:blossom_berry_crate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "betterend:blossom_berry"
+  }
+}

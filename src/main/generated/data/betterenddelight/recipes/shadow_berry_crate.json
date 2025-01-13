@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    },
+    {
+      "item": "betterend:shadow_berry_raw"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:shadow_berry_crate"
+  }
+}

@@ -70,15 +70,6 @@ dependencies {
 	modImplementation "curse.maven:betterend-413596:4971487"
 
 }
-task runBEDDatagen(type: JavaExec) {
-	group = "datagen"
-	description = "Run the data generator for your mod only."
-
-	classpath = sourceSets.main.runtimeClasspath
-	args "--mod", "betterenddelight"
-
-	mainClass.set("com.betterenddelight.generator.DataGenerator")
-}
 processResources {
 	inputs.property "version", project.version
 

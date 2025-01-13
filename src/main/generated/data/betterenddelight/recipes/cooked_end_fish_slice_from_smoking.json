@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "betterenddelight:end_fish_slice"
+  },
+  "result": "betterenddelight:cooked_end_fish_slice"
+}
