@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "naturalistdelight",
+	"id": "betterenddelight",
 	"version": "${version}",
-	"name": "NaturalistDelight",
+	"name": "BetterEndDelight",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -15,6 +15,9 @@
 	"icon": "assets/naturalistdelight/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"fabric-datagen": [
+			"com.betterenddelight.generator.DataGenerator"
+		],
 		"main": [
 			"com.betterenddelight.BetterEndDelight"
 		],

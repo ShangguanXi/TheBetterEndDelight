@@ -1,5 +1,6 @@
 package com.betterenddelight.registers;
 
+import com.betterenddelight.registers.items.Foods;
 import com.betterenddelight.registers.items.Knives;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -13,5 +14,6 @@ public class ItemRegister{
     }
     public static void initialize() {
         Knives.initialize();
+        Foods.initialize();
     }
 }
