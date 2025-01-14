@@ -17,25 +17,11 @@ import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Pair;
-import net.minecraft.util.Util;
-import net.minecraft.util.collection.DefaultedList;
-import org.betterx.betterend.item.material.EndToolMaterial;
 import org.betterx.betterend.registry.EndBlocks;
 import org.betterx.betterend.registry.EndItems;
 import org.betterx.betterend.registry.EndTemplates;
-import org.jetbrains.annotations.Nullable;
-import vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe;
-import vectorwing.farmersdelight.common.crafting.ingredient.ChanceResult;
-import vectorwing.farmersdelight.common.tag.ConventionalTags;
-import vectorwing.farmersdelight.integration.crafttweaker.handlers.CuttingBoardRecipeHandler;
-import vectorwing.farmersdelight.integration.crafttweaker.managers.CuttingBoardRecipeManager;
 
-import java.util.Collections;
-import java.util.List;
 import java.util.function.Consumer;
-
-import static net.minecraft.advancement.AdvancementRewards.Builder.recipe;
 
 public class RecipeGenerator extends FabricRecipeProvider {
     public static String hasTag(TagKey<Item> tag) {

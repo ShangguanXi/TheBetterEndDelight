@@ -1,10 +1,10 @@
-// 1.20.1	2025-01-13T22:21:30.1515597	BetterEndDelight/Model Definitions
+// 1.20.1	2025-01-14T09:27:04.1435468	BetterEndDelight/Model Definitions
 88dad9d91006e9daa750d4af1626e6399d3b5849 assets\betterenddelight\blockstates\blossom_berry_crate.json
-2fec4a88aa92dd1903c8a173eb8a46cca0d4d9df assets\betterenddelight\models\item\end_fish_slice.json
 d17c3ab5eae2fd57a4742aa5785da6dd591c7b0d assets\betterenddelight\models\item\thallasium_knife.json
+2fec4a88aa92dd1903c8a173eb8a46cca0d4d9df assets\betterenddelight\models\item\end_fish_slice.json
 9fd47dccc1cce42d67c1b8be22d4a23707007abb assets\betterenddelight\models\item\shadow_berry_crate.json
-11377c3f88ae2ea302f793c09e6e757ddccf2656 assets\betterenddelight\models\block\shadow_berry_crate.json
 9946dd2d900b7e3bae48c7b67452c01479022888 assets\betterenddelight\models\item\aeternium_knife.json
+11377c3f88ae2ea302f793c09e6e757ddccf2656 assets\betterenddelight\models\block\shadow_berry_crate.json
 87bf9c785dfe41ba722ec7d6c9047a038b3bd3ba assets\betterenddelight\models\item\blossom_berry_crate.json
 2d403185da7e9079cd4ed59fef5d54700f95668b assets\betterenddelight\models\item\cooked_end_fish_slice.json
 80c2f83c89fb44514c10224202141a9fbdf6d844 assets\betterenddelight\models\block\blossom_berry_crate.json
