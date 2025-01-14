@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "betterend:end_lotus_hanging_sign"
+    }
+  ],
+  "result": [
+    {
+      "item": "betterend:end_lotus_stripped_hanging_sign"
+    }
+  ],
+  "tool": {
+    "action": "axe_dig",
+    "fabric:type": "farmersdelight:tool_action"
+  },
+  "type": "farmersdelight:cutting"
+}

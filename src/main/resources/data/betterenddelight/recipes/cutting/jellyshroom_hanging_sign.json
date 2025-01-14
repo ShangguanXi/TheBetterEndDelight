@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "betterend:jellyshroom_hanging_sign"
+    }
+  ],
+  "result": [
+    {
+      "item": "betterend:jellyshroom_stripped_hanging_sign"
+    }
+  ],
+  "tool": {
+    "action": "axe_dig",
+    "fabric:type": "farmersdelight:tool_action"
+  },
+  "type": "farmersdelight:cutting"
+}

@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "betterend:mossy_glowshroom_sign"
+    }
+  ],
+  "result": [
+    {
+      "item": "betterend:mossy_glowshroom_stripped_sign"
+    }
+  ],
+  "tool": {
+    "action": "axe_dig",
+    "fabric:type": "farmersdelight:tool_action"
+  },
+  "type": "farmersdelight:cutting"
+}

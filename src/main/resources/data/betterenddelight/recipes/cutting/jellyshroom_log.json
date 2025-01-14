@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "betterend:jellyshroom_log"
+    }
+  ],
+  "result": [
+    {
+      "item": "betterend:jellyshroom_stripped_log"
+    }
+  ],
+  "tool": {
+    "action": "axe_dig",
+    "fabric:type": "farmersdelight:tool_action"
+  },
+  "type": "farmersdelight:cutting"
+}

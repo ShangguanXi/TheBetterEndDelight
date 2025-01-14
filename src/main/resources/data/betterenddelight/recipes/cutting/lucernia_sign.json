@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "betterend:lucernia_sign"
+    }
+  ],
+  "result": [
+    {
+      "item": "betterend:lucernia_stripped_sign"
+    }
+  ],
+  "tool": {
+    "action": "axe_dig",
+    "fabric:type": "farmersdelight:tool_action"
+  },
+  "type": "farmersdelight:cutting"
+}

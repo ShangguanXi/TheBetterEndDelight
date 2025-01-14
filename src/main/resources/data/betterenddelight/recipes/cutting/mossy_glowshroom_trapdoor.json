@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "betterend:mossy_glowshroom_trapdoor"
+    }
+  ],
+  "result": [
+    {
+      "item": "betterend:mossy_glowshroom_stripped_trapdoor"
+    }
+  ],
+  "tool": {
+    "action": "axe_dig",
+    "fabric:type": "farmersdelight:tool_action"
+  },
+  "type": "farmersdelight:cutting"
+}

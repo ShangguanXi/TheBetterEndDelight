@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "betterend:umbrella_tree_bark"
+    }
+  ],
+  "result": [
+    {
+      "item": "betterend:umbrella_tree_stripped_bark"
+    }
+  ],
+  "tool": {
+    "action": "axe_dig",
+    "fabric:type": "farmersdelight:tool_action"
+  },
+  "type": "farmersdelight:cutting"
+}
