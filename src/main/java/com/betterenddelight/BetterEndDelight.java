@@ -3,6 +3,7 @@ package com.betterenddelight;
 import com.betterenddelight.registers.BlockRegister;
 import com.betterenddelight.registers.ItemGroupRegister;
 import com.betterenddelight.registers.ItemRegister;
+import com.betterenddelight.registers.TagRegister;
 import net.fabricmc.api.ModInitializer;
 
 import org.jetbrains.annotations.NotNull;
@@ -30,6 +31,7 @@ public class BetterEndDelight implements ModInitializer {
 		ItemGroupRegister.initialize();
 		BlockRegister.initialize();
 		ItemRegister.initialize();
+		TagRegister.initialize();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

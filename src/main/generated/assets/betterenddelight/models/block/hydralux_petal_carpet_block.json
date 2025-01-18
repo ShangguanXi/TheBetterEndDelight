@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "betterend:block/hydralux_petal_block"
+  }
+}

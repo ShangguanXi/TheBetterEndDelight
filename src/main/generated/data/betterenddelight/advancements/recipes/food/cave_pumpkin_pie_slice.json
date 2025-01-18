@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cave_pumpkin_pie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:cave_pumpkin_pie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterenddelight:cave_pumpkin_pie_slice"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cave_pumpkin_pie",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterenddelight:cave_pumpkin_pie_slice"
+    ]
+  },
+  "sends_telemetry_event": false
+}

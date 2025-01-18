@@ -3,16 +3,12 @@
 	"id": "betterenddelight",
 	"version": "${version}",
 	"name": "BetterEndDelight",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is an addon for The Better End And Farmersdelight!",
 	"authors": [
-		"Me!"
+		"Moaswies"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/naturalistdelight/icon.png",
+	"license": "MIT License",
+	"icon": "assets/betterenddelight/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"fabric-datagen": [
@@ -29,7 +25,9 @@
 		"fabricloader": ">=0.16.6",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"farmersdelight": ">=1.20.1-2.2.5+refabricated",
+		"betterend": ">=4.0.11"
 	},
 	"suggests": {
 		"another-mod": "*"

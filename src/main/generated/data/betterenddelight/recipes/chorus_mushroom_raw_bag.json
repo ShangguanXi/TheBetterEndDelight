@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    },
+    {
+      "item": "betterend:chorus_mushroom_raw"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:chorus_mushroom_raw_bag"
+  }
+}

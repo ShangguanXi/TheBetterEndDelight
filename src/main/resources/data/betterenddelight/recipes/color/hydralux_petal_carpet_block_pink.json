@@ -1,0 +1,21 @@
+{
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "betterenddelight:hydralux_petal_carpet_block"
+    },
+    "A": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "result": {
+    "item": "betterenddelight:hydralux_petal_carpet_block_pink"
+  },
+  "show_notification": true,
+  "type": "minecraft:crafting_shaped"
+}

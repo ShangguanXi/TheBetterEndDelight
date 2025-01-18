@@ -2,6 +2,7 @@ package com.betterenddelight.registers;
 
 import com.betterenddelight.registers.items.Foods;
 import com.betterenddelight.registers.items.Knives;
+import com.betterenddelight.registers.items.Tools;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 
@@ -13,7 +14,8 @@ public class ItemRegister{
         return BETTER_END_DELIGHT_GROUP.register(Registries.ITEM, makeId(path), item);
     }
     public static void initialize() {
-        Knives.initialize();
         Foods.initialize();
+        Knives.initialize();
+        Tools.initialize();
     }
 }

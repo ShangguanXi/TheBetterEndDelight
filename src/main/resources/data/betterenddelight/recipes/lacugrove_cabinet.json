@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "group": "fd_cabinet",
+  "key": {
+    "D": {
+      "item": "betterend:lacugrove_trapdoor"
+    },
+    "_": {
+      "item": "betterend:lacugrove_slab"
+    }
+  },
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "result": {
+    "item": "betterenddelight:lacugrove_cabinet"
+  },
+  "show_notification": true,
+  "type": "minecraft:crafting_shaped"
+}

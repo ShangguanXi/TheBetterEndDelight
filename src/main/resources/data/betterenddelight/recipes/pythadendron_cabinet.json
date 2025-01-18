@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "group": "fd_cabinet",
+  "key": {
+    "D": {
+      "item": "betterend:pythadendron_trapdoor"
+    },
+    "_": {
+      "item": "betterend:pythadendron_slab"
+    }
+  },
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "result": {
+    "item": "betterenddelight:pythadendron_cabinet"
+  },
+  "show_notification": true,
+  "type": "minecraft:crafting_shaped"
+}

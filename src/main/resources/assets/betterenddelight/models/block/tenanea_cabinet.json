@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "betterenddelight:block/tenanea_cabinet_front",
+    "side": "betterenddelight:block/tenanea_cabinet_side",
+    "top": "betterenddelight:block/tenanea_cabinet_top"
+  }
+}

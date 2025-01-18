@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "betterend:hydralux_petal"
+    }
+  },
+  "pattern": [
+    "AA"
+  ],
+  "result": {
+    "item": "betterenddelight:hydralux_petal_carpet_block"
+  },
+  "show_notification": true
+}

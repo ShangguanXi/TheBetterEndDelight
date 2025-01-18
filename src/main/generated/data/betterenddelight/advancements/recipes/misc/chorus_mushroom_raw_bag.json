@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chorus_mushroom_raw": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:chorus_mushroom_raw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterenddelight:chorus_mushroom_raw_bag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_chorus_mushroom_raw",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterenddelight:chorus_mushroom_raw_bag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

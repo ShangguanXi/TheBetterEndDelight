@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "betterend:blossom_berry"
+    },
+    "B": {
+      "tag": "c:milks"
+    },
+    "C": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    "BCB"
+  ],
+  "result": {
+    "item": "betterenddelight:blossom_berry_cheesecake"
+  },
+  "show_notification": true
+}

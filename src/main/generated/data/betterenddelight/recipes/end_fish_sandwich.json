@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "betterenddelight:cooked_end_fish"
+    },
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:end_fish_sandwich"
+  }
+}

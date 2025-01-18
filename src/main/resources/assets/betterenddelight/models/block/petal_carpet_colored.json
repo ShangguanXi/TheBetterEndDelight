@@ -1,0 +1,6 @@
+{
+  "parent": "betterenddelight:block/base_petal_carpet_colored",
+  "textures": {
+    "texture": "betterend:block/hydralux_petal_block_colored"
+  }
+}

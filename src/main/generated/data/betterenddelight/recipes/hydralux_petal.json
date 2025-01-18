@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "betterenddelight:hydralux_petal_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "betterend:hydralux_petal"
+  }
+}

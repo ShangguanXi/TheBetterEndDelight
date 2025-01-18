@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "betterenddelight:block/lucernia_cabinet_front",
+    "side": "betterenddelight:block/lucernia_cabinet_side",
+    "top": "betterenddelight:block/lucernia_cabinet_top"
+  }
+}

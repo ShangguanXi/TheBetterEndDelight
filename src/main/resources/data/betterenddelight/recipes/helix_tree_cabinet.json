@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "group": "fd_cabinet",
+  "key": {
+    "D": {
+      "item": "betterend:helix_tree_trapdoor"
+    },
+    "_": {
+      "item": "betterend:helix_tree_slab"
+    }
+  },
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "result": {
+    "item": "betterenddelight:helix_tree_cabinet"
+  },
+  "show_notification": true,
+  "type": "minecraft:crafting_shaped"
+}

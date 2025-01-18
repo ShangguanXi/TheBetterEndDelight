@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "betterenddelight:block/jellyshroom_cabinet_front",
+    "side": "betterenddelight:block/jellyshroom_cabinet_side",
+    "top": "betterenddelight:block/jellyshroom_cabinet_top"
+  }
+}

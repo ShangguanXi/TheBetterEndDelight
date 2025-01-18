@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "betterend:cave_pumpkin_pie"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "betterenddelight:cave_pumpkin_pie_slice"
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:hydralux_petal_bag"
+  }
+}

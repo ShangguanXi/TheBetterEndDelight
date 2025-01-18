@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "betterenddelight:block/lacugrove_cabinet_front",
+    "side": "betterenddelight:block/lacugrove_cabinet_side",
+    "top": "betterenddelight:block/lacugrove_cabinet_top"
+  }
+}

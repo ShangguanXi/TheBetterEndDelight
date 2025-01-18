@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    },
+    {
+      "item": "betterend:lumecorn_rod"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:lumecorn_rod_crate"
+  }
+}

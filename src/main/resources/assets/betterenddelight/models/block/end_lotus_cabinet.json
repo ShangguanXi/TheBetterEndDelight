@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "betterenddelight:block/end_lotus_cabinet_front",
+    "side": "betterenddelight:block/end_lotus_cabinet_side",
+    "top": "betterenddelight:block/end_lotus_cabinet_top"
+  }
+}

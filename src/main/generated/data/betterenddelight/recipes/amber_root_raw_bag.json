@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    },
+    {
+      "item": "betterend:amber_root_raw"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:amber_root_raw_bag"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterenddelight:item/shadow_berry_cheesecake_slice"
+  }
+}

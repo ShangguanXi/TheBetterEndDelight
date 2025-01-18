@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "betterend:shadow_berry_raw"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:ice"
+    }
+  },
+  "pattern": [
+    " AA",
+    "CAA",
+    "BC "
+  ],
+  "result": {
+    "item": "betterenddelight:shadow_berry_popsicle"
+  },
+  "show_notification": true
+}

@@ -2,6 +2,17 @@
   "replace": false,
   "values": [
     "betterenddelight:blossom_berry_crate",
-    "betterenddelight:shadow_berry_crate"
+    "betterenddelight:shadow_berry_crate",
+    "betterenddelight:lumecorn_rod_crate",
+    "betterenddelight:dragon_tree_cabinet",
+    "betterenddelight:end_lotus_cabinet",
+    "betterenddelight:helix_tree_cabinet",
+    "betterenddelight:jellyshroom_cabinet",
+    "betterenddelight:lacugrove_cabinet",
+    "betterenddelight:lucernia_cabinet",
+    "betterenddelight:mossy_glowshroom_cabinet",
+    "betterenddelight:tenanea_cabinet",
+    "betterenddelight:pythadendron_cabinet",
+    "betterenddelight:umbrella_tree_cabinet"
   ]
 }

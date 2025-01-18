@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "betterenddelight:block/dragon_tree_cabinet_front",
+    "side": "betterenddelight:block/dragon_tree_cabinet_side",
+    "top": "betterenddelight:block/dragon_tree_cabinet_top"
+  }
+}

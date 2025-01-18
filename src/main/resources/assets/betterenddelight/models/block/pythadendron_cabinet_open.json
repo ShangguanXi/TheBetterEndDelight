@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "betterenddelight:block/pythadendron_cabinet_front_open",
+    "side": "betterenddelight:block/pythadendron_cabinet_side",
+    "top": "betterenddelight:block/pythadendron_cabinet_top"
+  }
+}
