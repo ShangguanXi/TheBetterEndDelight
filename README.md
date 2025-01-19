@@ -1,7 +1,3 @@
-以下是一个适用于 **Better End Delight** 的 GitHub README 文档模板，突出了模组内容、安装指南和未来发展计划：  
-
----
-
 # Better End Delight  
 
 **Better End Delight** is a Minecraft mod that combines the mystique of the End dimension with the culinary creativity of **Farmer's Delight**. Add new foods, decorations, and tools inspired by the unique flora and resources of the End!  
@@ -13,7 +9,7 @@
 - **Farmer's Delight** and **Better End** mods installed.  
 
 ### Installation  
-1. Download the latest version of **Better End Delight** from [Modrinth](https://modrinth.com) or [CurseForge](https://curseforge.com).  
+1. Download the latest version of **Better End Delight** from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/betterenddelight).  
 2. Place the downloaded `.jar` file into your Minecraft `mods` folder.  
 3. Launch Minecraft with Fabric Loader and enjoy!  
 
