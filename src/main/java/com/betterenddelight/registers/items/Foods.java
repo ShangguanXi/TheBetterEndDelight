@@ -4,6 +4,7 @@ import com.betterenddelight.items.FoodValues;
 import com.betterenddelight.items.Popsicle;
 import com.betterenddelight.registers.ItemRegister;
 import net.minecraft.item.FoodComponent;
+import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
 import net.minecraft.item.StewItem;
 import org.betterx.betterend.registry.EndItems;
@@ -28,7 +29,17 @@ public class Foods {
 
     public static final Item GELATINE_SAUCE = ItemRegister.register("gelatine_sauce", new StewItem(new Item.Settings().food(FoodValues.GELATINE_SAUCE).maxCount(16)));
 
-    public static final Item GLOW_BERRY_JELLY = ItemRegister.register("glow_berry_jelly", new StewItem(new Item.Settings().food(EndItems.SWEET_BERRY_JELLY.getFoodComponent())));
+    public static final Item GLOW_BERRY_JELLY = ItemRegister.register("glow_berry_jelly", new Item(new Item.Settings().food(EndItems.SWEET_BERRY_JELLY.getFoodComponent())));
+    public static final Item ALOE_VERA_JELLY = ItemRegister.register("aloe_vera_jelly", new Item(new Item.Settings().food(EndItems.SWEET_BERRY_JELLY.getFoodComponent())));
+
+    public static final Item COOKED_POLYPORE = ItemRegister.register("cooked_polypore", new Item(new Item.Settings().food(FoodValues.COOKED_POLYPORE)));
+    public static final Item NEON_CACTUS_SLICE = ItemRegister.register("neon_cactus_slice", new Item(new Item.Settings().food(FoodValues.NEON_CACTUS_SLICE)));
+    public static final Item COOKED_NEON_CACTUS_SLICE = ItemRegister.register("cooked_neon_cactus_slice", new Item(new Item.Settings().food(FoodValues.COOKED_NEON_CACTUS_SLICE)));
+
+    public static final Item ALOE_VERA_LEAF = ItemRegister.register("aloe_vera_leaf", new Item(new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
+
+    // 碗食物 BowlFoods
+    public static final Item AMARANITA_MUSHROOM_RICE = ItemRegister.register("amaranita_mushroom_rice", new StewItem(new Item.Settings().food(FoodValues.AMARANITA_MUSHROOM_RICE).maxCount(16)));
 
     public static void initialize() {
 

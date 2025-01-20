@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "betterenddelight:neon_cactus_slice"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "betterenddelight:cooked_neon_cactus_slice"
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

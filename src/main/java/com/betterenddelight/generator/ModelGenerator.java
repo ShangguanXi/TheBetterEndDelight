@@ -4,6 +4,7 @@ import com.betterenddelight.BetterEndDelight;
 import com.betterenddelight.registers.blocks.Crates;
 import com.betterenddelight.registers.blocks.PetalCarpetBlocks;
 import com.betterenddelight.registers.blocks.Pies;
+import com.betterenddelight.registers.blocks.WildCrops;
 import com.betterenddelight.registers.items.Foods;
 import com.betterenddelight.registers.items.Knives;
 import com.betterenddelight.registers.items.Tools;
@@ -64,6 +65,12 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(Foods.END_FISH_SANDWICH, Models.GENERATED);
         itemModelGenerator.register(Foods.GELATINE_SAUCE, Models.GENERATED);
         itemModelGenerator.register(Foods.GLOW_BERRY_JELLY, Models.GENERATED);
+        itemModelGenerator.register(Foods.COOKED_POLYPORE, Models.GENERATED);
+        itemModelGenerator.register(Foods.NEON_CACTUS_SLICE, Models.GENERATED);
+        itemModelGenerator.register(Foods.COOKED_NEON_CACTUS_SLICE, Models.GENERATED);
+        itemModelGenerator.register(Foods.AMARANITA_MUSHROOM_RICE, Models.GENERATED);
+        itemModelGenerator.register(Foods.ALOE_VERA_JELLY, Models.GENERATED);
+        itemModelGenerator.register(Foods.ALOE_VERA_LEAF, Models.GENERATED);
 
     }
     private static void crateBlock(Block block, BlockStateModelGenerator blockStateModelGenerator) {

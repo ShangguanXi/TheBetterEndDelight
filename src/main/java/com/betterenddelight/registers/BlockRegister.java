@@ -1,9 +1,6 @@
 package com.betterenddelight.registers;
 
-import com.betterenddelight.registers.blocks.Cabinets;
-import com.betterenddelight.registers.blocks.Crates;
-import com.betterenddelight.registers.blocks.PetalCarpetBlocks;
-import com.betterenddelight.registers.blocks.Pies;
+import com.betterenddelight.registers.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -27,6 +24,7 @@ public class BlockRegister {
         Crates.initialize();
         Cabinets.initialize();
 
+        WildCrops.initialize();
         PetalCarpetBlocks.initialize();
         Pies.initialize();
     }

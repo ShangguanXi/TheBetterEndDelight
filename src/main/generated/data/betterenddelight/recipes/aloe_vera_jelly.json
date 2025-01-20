@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterenddelight:aloe_vera_leaf"
+    },
+    {
+      "item": "betterend:gelatine"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:aloe_vera_jelly"
+  }
+}

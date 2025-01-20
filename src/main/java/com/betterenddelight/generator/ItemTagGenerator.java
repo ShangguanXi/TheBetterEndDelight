@@ -3,6 +3,7 @@ package com.betterenddelight.generator;
 import com.betterenddelight.registers.TagRegister;
 import com.betterenddelight.registers.blocks.Cabinets;
 import com.betterenddelight.registers.blocks.Crates;
+import com.betterenddelight.registers.blocks.WildCrops;
 import com.betterenddelight.registers.items.Foods;
 import com.betterenddelight.registers.items.Knives;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -11,6 +12,7 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagEntry;
+import org.betterx.betterend.registry.EndBlocks;
 import org.betterx.betterend.registry.EndItems;
 import org.betterx.betterend.registry.EndTags;
 import vectorwing.farmersdelight.common.tag.ConventionalTags;
@@ -37,6 +39,9 @@ public class ItemTagGenerator extends  FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(TagRegister.COOKED_END_FISH)
                 .add(EndItems.END_FISH_COOKED)
                 .add(Foods.COOKED_END_FISH_SLICE);
+        getOrCreateTagBuilder(TagRegister.POLYPORE)
+                .add(EndBlocks.PURPLE_POLYPORE.asItem())
+                .add(EndBlocks.AURANT_POLYPORE.asItem());
     }
 
     private void MinecraftTags() {
@@ -79,6 +84,8 @@ public class ItemTagGenerator extends  FabricTagProvider.ItemTagProvider {
                 .add(Cabinets.TENANEA_CABINET.asItem())
                 .add(Cabinets.PYTHADENDRON_CABINET.asItem())
                 .add(Cabinets.UMBRELLA_TREE_CABINET.asItem());
+        getOrCreateTagBuilder(ModTags.WILD_CROPS_ITEM)
+                .add(WildCrops.WILD_ALOE_VERA.asItem());
     }
 
 }

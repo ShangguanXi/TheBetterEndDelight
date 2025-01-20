@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "betterenddelight:block/wild_aloe_vera"
+  }
+}

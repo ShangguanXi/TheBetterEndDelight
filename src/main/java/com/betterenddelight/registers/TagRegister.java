@@ -10,6 +10,7 @@ import vectorwing.farmersdelight.FarmersDelight;
 public class TagRegister {
 
     public static final TagKey<Item> COOKED_END_FISH = itemTag("cooked_end_fish");
+    public static final TagKey<Item> POLYPORE = itemTag("polypore");
 
     private static TagKey<Item> itemTag(String path) {
         return TagKey.of(RegistryKeys.ITEM, new Identifier(BetterEndDelight.MOD_ID, path));

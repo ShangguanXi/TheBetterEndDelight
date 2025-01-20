@@ -1,9 +1,6 @@
 package com.betterenddelight.generator;
 
-import com.betterenddelight.registers.blocks.Cabinets;
-import com.betterenddelight.registers.blocks.Crates;
-import com.betterenddelight.registers.blocks.PetalCarpetBlocks;
-import com.betterenddelight.registers.blocks.Pies;
+import com.betterenddelight.registers.blocks.*;
 import com.betterenddelight.registers.items.Foods;
 import com.betterenddelight.registers.items.Knives;
 import com.betterenddelight.registers.items.Tools;
@@ -73,6 +70,13 @@ public class EnUsTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Cabinets.TENANEA_CABINET,"Tenanea Cabinet");
         translationBuilder.add(Cabinets.PYTHADENDRON_CABINET,"Pythadendron Cabinet");
         translationBuilder.add(Cabinets.UMBRELLA_TREE_CABINET,"Umbrella Tree Cabinet");
+        translationBuilder.add(Foods.COOKED_POLYPORE,"Cooked Polypore");
+        translationBuilder.add(Foods.NEON_CACTUS_SLICE,"Neon Cactus Slice");
+        translationBuilder.add(Foods.COOKED_NEON_CACTUS_SLICE,"Cooked Neon Cactus Slice");
+        translationBuilder.add(Foods.AMARANITA_MUSHROOM_RICE,"Amaranita Mushroom Rice");
+        translationBuilder.add(WildCrops.WILD_ALOE_VERA,"Wild End Aloe Vera");
+        translationBuilder.add(Foods.ALOE_VERA_JELLY,"End Aloe Vera Jelly");
+        translationBuilder.add(Foods.ALOE_VERA_LEAF,"End Aloe Vera Leaf");
 
     }
 }

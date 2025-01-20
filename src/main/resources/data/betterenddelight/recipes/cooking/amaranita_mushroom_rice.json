@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "betterend:small_amaranita_mushroom"
+    },
+    {
+      "item": "betterend:small_amaranita_mushroom"
+    },
+    {
+      "tag": "c:crops/rice"
+    },
+    [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "farmersdelight:onion"
+      }
+    ]
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "betterenddelight:amaranita_mushroom_rice"
+  }
+}

@@ -2,14 +2,11 @@ package com.betterenddelight.generator;
 
 import com.betterenddelight.registers.blocks.Cabinets;
 import com.betterenddelight.registers.blocks.Crates;
+import com.betterenddelight.registers.blocks.WildCrops;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.block.Block;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
-import vectorwing.farmersdelight.common.tag.CompatibilityTags;
 import vectorwing.farmersdelight.common.tag.ModTags;
 
 import java.util.concurrent.CompletableFuture;
@@ -61,6 +58,8 @@ public class BlockTagGenerator extends  FabricTagProvider.BlockTagProvider {
                 .add(Crates.HYDRALUX_PETAL_BAG)
                 .add(Crates.AMBER_ROOT_RAW_BAG)
                 .add(Crates.CHORUS_MUSHROOM_RAW_BAG);
+        getOrCreateTagBuilder(ModTags.WILD_CROPS)
+                .add(WildCrops.WILD_ALOE_VERA);
     }
 
 }

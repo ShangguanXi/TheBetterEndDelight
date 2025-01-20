@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "betterenddelight:neon_cactus_slice"
+  },
+  "result": "betterenddelight:cooked_neon_cactus_slice"
+}

@@ -32,6 +32,7 @@ public class BetterEndDelight implements ModInitializer {
 		BlockRegister.initialize();
 		ItemRegister.initialize();
 		TagRegister.initialize();
+		TagRegister.initialize();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

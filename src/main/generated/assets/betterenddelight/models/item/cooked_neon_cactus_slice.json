@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterenddelight:item/cooked_neon_cactus_slice"
+  }
+}

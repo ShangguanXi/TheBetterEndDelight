@@ -6,6 +6,7 @@ import com.betterenddelight.registers.TagRegister;
 import com.betterenddelight.registers.blocks.Crates;
 import com.betterenddelight.registers.items.Foods;
 import com.betterenddelight.registers.items.Knives;
+import io.github.fabricators_of_create.porting_lib.entity.events.PlayerTickEvents;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.*;
@@ -41,7 +42,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(outputItem), FabricRecipeProvider.conditionsFromItem(outputItem))
                 .offerTo(exporter);
     }
-    public static void cookRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, Item input, Item output, float experience, int smeltingTime) {
+    public static void cookRecipeFromItem(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, Item input, Item output, float experience, int smeltingTime) {
         int campfireTime = smeltingTime * 3;
         int smokingTime = smeltingTime / 2;
         String path = Registries.ITEM.getId(output).getPath();
@@ -61,6 +62,24 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .criterion(RecipeProvider.hasItem(input), RecipeProvider.conditionsFromItem(input))
                 .offerTo(exporter, new Identifier(BetterEndDelight.MOD_ID,  path + "_from_smoking"));
     }
+    public static void cookRecipeFromTag(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, TagKey<Item> inputTag, Item output, float experience, int smeltingTime) {
+        int campfireTime = smeltingTime * 3;
+        int smokingTime = smeltingTime / 2;
+        String path = Registries.ITEM.getId(output).getPath();
+
+        CookingRecipeJsonBuilder.createSmelting(Ingredient.fromTag(inputTag), category, output, experience, smeltingTime)
+                .criterion("has_input", RecipeProvider.conditionsFromTag(inputTag))
+                .offerTo(exporter, new Identifier(BetterEndDelight.MOD_ID, path + "_from_smelting"));
+
+        CookingRecipeJsonBuilder.createCampfireCooking(Ingredient.fromTag(inputTag), category, output, experience, campfireTime)
+                .criterion("has_input", RecipeProvider.conditionsFromTag(inputTag))
+                .offerTo(exporter, new Identifier(BetterEndDelight.MOD_ID, path + "_from_campfire_cooking"));
+
+        CookingRecipeJsonBuilder.createSmoking(Ingredient.fromTag(inputTag), category, output, experience, smokingTime)
+                .criterion("has_input", RecipeProvider.conditionsFromTag(inputTag))
+                .offerTo(exporter, new Identifier(BetterEndDelight.MOD_ID, path + "_from_smoking"));
+    }
+
     public static void smithingRecipe(Consumer<RecipeJsonProvider> exporter,RecipeCategory category, Item base, Item addition, Item template, Item result){
 
         String path = Registries.ITEM.getId(result).getPath();
@@ -156,12 +175,20 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .addInput(Items.SUGAR,1)
                 .addInput(Items.POTION,1)
                 .build();
+        shapelessRecipe(exporter,RecipeCategory.FOOD,Foods.ALOE_VERA_JELLY,1)
+                .addInput(Foods.ALOE_VERA_LEAF,1)
+                .addInput(EndItems.GELATINE,1)
+                .addInput(Items.SUGAR,1)
+                .addInput(Items.POTION,1)
+                .build();
 
-        cookRecipe(exporter,RecipeCategory.FOOD,Foods.END_FISH_SLICE,Foods.COOKED_END_FISH_SLICE,0.5F,300);
+        cookRecipeFromItem(exporter,RecipeCategory.FOOD,Foods.END_FISH_SLICE,Foods.COOKED_END_FISH_SLICE,0.5F,300);
+        cookRecipeFromItem(exporter,RecipeCategory.FOOD,Foods.NEON_CACTUS_SLICE,Foods.COOKED_NEON_CACTUS_SLICE,0.5F,300);
 
         smithingRecipe(exporter,RecipeCategory.TOOLS, EndItems.AETERNIUM_INGOT,EndItems.LEATHER_WRAPPED_STICK, EndTemplates.TOOL_ASSEMBLY, Knives.AETERNIUM_KNIFE);
         smithingRecipe(exporter,RecipeCategory.TOOLS, EndBlocks.THALLASIUM.ingot ,Items.STICK, EndTemplates.TOOL_ASSEMBLY, Knives.THALLASIUM_KNIFE);
         smithingRecipe(exporter,RecipeCategory.TOOLS, EndBlocks.TERMINITE.ingot ,Items.STICK, EndTemplates.TOOL_ASSEMBLY, Knives.TERMINITE_KNIFE);
-    }
+        cookRecipeFromTag(exporter,RecipeCategory.FOOD, TagRegister.POLYPORE, Foods.COOKED_POLYPORE,0.5F,300);
+         }
 
 }

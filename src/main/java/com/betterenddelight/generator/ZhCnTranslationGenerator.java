@@ -1,8 +1,6 @@
 package com.betterenddelight.generator;
 
-import com.betterenddelight.registers.blocks.Crates;
-import com.betterenddelight.registers.blocks.PetalCarpetBlocks;
-import com.betterenddelight.registers.blocks.Pies;
+import com.betterenddelight.registers.blocks.*;
 import com.betterenddelight.registers.items.Foods;
 import com.betterenddelight.registers.items.Knives;
 import com.betterenddelight.registers.items.Tools;
@@ -35,6 +33,17 @@ public class ZhCnTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_red", "红色水生烛光花瓣毯");
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_black", "黑色水生烛光花瓣毯");
 
+        translationBuilder.add(Cabinets.DRAGON_TREE_CABINET,"龙鳞木橱柜");
+        translationBuilder.add(Cabinets.END_LOTUS_CABINET,"末地莲木橱柜");
+        translationBuilder.add(Cabinets.HELIX_TREE_CABINET,"螺旋树木橱柜");
+        translationBuilder.add(Cabinets.JELLYSHROOM_CABINET,"果冻菌橱柜");
+        translationBuilder.add(Cabinets.LACUGROVE_CABINET,"湖树木橱柜");
+        translationBuilder.add(Cabinets.LUCERNIA_CABINET,"灯笼木橱柜");
+        translationBuilder.add(Cabinets.MOSSY_GLOWSHROOM_CABINET,"苔光菇橱柜");
+        translationBuilder.add(Cabinets.TENANEA_CABINET,"十纹木橱柜");
+        translationBuilder.add(Cabinets.PYTHADENDRON_CABINET,"紫颂木橱柜");
+        translationBuilder.add(Cabinets.UMBRELLA_TREE_CABINET,"胶伞树木橱柜");
+
         translationBuilder.add(Crates.BLOSSOM_BERRY_CRATE, "箱装绽花浆果");
         translationBuilder.add(Crates.SHADOW_BERRY_CRATE, "箱装黯影浆果");
         translationBuilder.add(Crates.LUMECORN_ROD_CRATE, "箱装流明玉米棒");
@@ -62,5 +71,12 @@ public class ZhCnTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Foods.END_FISH_SANDWICH,"末地鱼三明治");
         translationBuilder.add(Foods.GELATINE_SAUCE,"水母凝胶酱");
         translationBuilder.add(Foods.GLOW_BERRY_JELLY,"发光浆果冻");
+        translationBuilder.add(Foods.COOKED_POLYPORE,"熟树舌");
+        translationBuilder.add(Foods.NEON_CACTUS_SLICE,"霓虹仙人掌片");
+        translationBuilder.add(Foods.COOKED_NEON_CACTUS_SLICE,"熟霓虹仙人掌片");
+        translationBuilder.add(Foods.AMARANITA_MUSHROOM_RICE,"龙血鹅膏蘑菇盖饭");
+        translationBuilder.add(WildCrops.WILD_ALOE_VERA,"野生末地芦荟");
+        translationBuilder.add(Foods.ALOE_VERA_JELLY,"末地芦荟果冻");
+        translationBuilder.add(Foods.ALOE_VERA_LEAF,"末地芦荟叶");
     }
 }
