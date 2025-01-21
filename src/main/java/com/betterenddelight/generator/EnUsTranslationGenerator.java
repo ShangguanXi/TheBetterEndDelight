@@ -31,6 +31,7 @@ public class EnUsTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_green", "Green Hydralux Petal Carpet");
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_red", "Red Hydralux Petal Carpet");
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_black", "Black Hydralux Petal Carpet");
+        translationBuilder.add("farmersdelight.tooltip.milk_jelly", "Clears 1 Effect");
 
         translationBuilder.add(Crates.BLOSSOM_BERRY_CRATE, "Blossom Berry Crate");
         translationBuilder.add(Crates.SHADOW_BERRY_CRATE, "Shadow Berry Crate");
@@ -74,9 +75,14 @@ public class EnUsTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Foods.NEON_CACTUS_SLICE,"Neon Cactus Slice");
         translationBuilder.add(Foods.COOKED_NEON_CACTUS_SLICE,"Cooked Neon Cactus Slice");
         translationBuilder.add(Foods.AMARANITA_MUSHROOM_RICE,"Amaranita Mushroom Rice");
-        translationBuilder.add(WildCrops.WILD_ALOE_VERA,"Wild End Aloe Vera");
+        translationBuilder.add(WildCrops.WILD_ALOE_VERA,"End Aloe Vera");
         translationBuilder.add(Foods.ALOE_VERA_JELLY,"End Aloe Vera Jelly");
         translationBuilder.add(Foods.ALOE_VERA_LEAF,"End Aloe Vera Leaf");
+        translationBuilder.add(Foods.BLOSSOM_BERRY_JUICE,"Blossom Berry Juice");
+        translationBuilder.add(Foods.SHADOW_BERRY_JUICE,"Shadow Berry Juice");
+        translationBuilder.add(Foods.MELON_JELLY,"Melon Jelly");
+        translationBuilder.add(Foods.APPLE_JELLY,"Apple Jelly");
+        translationBuilder.add(Foods.MILK_JELLY,"Milk Jelly");
 
     }
 }

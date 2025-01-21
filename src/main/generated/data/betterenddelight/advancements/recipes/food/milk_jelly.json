@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_milks/milk_bottles": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:milks/milk_bottles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterenddelight:milk_jelly"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_milks/milk_bottles",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterenddelight:milk_jelly"
+    ]
+  },
+  "sends_telemetry_event": false
+}

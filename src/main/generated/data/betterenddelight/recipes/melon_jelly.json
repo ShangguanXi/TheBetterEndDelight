@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "betterend:gelatine"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:melon_jelly"
+  }
+}

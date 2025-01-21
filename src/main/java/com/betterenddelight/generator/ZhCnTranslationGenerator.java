@@ -32,7 +32,7 @@ public class ZhCnTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_green", "绿色水生烛光花瓣毯");
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_red", "红色水生烛光花瓣毯");
         translationBuilder.add("block.betterenddelight.hydralux_petal_carpet_block_black", "黑色水生烛光花瓣毯");
-
+        translationBuilder.add("farmersdelight.tooltip.milk_jelly", "清除1个效果");
         translationBuilder.add(Cabinets.DRAGON_TREE_CABINET,"龙鳞木橱柜");
         translationBuilder.add(Cabinets.END_LOTUS_CABINET,"末地莲木橱柜");
         translationBuilder.add(Cabinets.HELIX_TREE_CABINET,"螺旋树木橱柜");
@@ -75,8 +75,14 @@ public class ZhCnTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Foods.NEON_CACTUS_SLICE,"霓虹仙人掌片");
         translationBuilder.add(Foods.COOKED_NEON_CACTUS_SLICE,"熟霓虹仙人掌片");
         translationBuilder.add(Foods.AMARANITA_MUSHROOM_RICE,"龙血鹅膏蘑菇盖饭");
-        translationBuilder.add(WildCrops.WILD_ALOE_VERA,"野生末地芦荟");
+        translationBuilder.add(WildCrops.WILD_ALOE_VERA,"末地芦荟");
         translationBuilder.add(Foods.ALOE_VERA_JELLY,"末地芦荟果冻");
         translationBuilder.add(Foods.ALOE_VERA_LEAF,"末地芦荟叶");
+        translationBuilder.add(Foods.BLOSSOM_BERRY_JUICE,"绽花浆果饮");
+        translationBuilder.add(Foods.SHADOW_BERRY_JUICE,"黯影浆果饮");
+        translationBuilder.add(Foods.MELON_JELLY,"西瓜果冻");
+        translationBuilder.add(Foods.APPLE_JELLY,"苹果冻");
+        translationBuilder.add(Foods.MILK_JELLY,"牛奶果冻");
+
     }
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:milks/milk_bottles"
+    },
+    {
+      "item": "betterend:gelatine"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:milk_jelly"
+  }
+}

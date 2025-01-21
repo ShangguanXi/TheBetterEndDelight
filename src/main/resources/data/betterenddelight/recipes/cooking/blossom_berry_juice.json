@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "betterend:blossom_berry"
+    },
+    {
+      "item": "betterend:blossom_berry"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "betterenddelight:blossom_berry_juice"
+  }
+}

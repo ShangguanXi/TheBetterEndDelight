@@ -71,6 +71,11 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(Foods.AMARANITA_MUSHROOM_RICE, Models.GENERATED);
         itemModelGenerator.register(Foods.ALOE_VERA_JELLY, Models.GENERATED);
         itemModelGenerator.register(Foods.ALOE_VERA_LEAF, Models.GENERATED);
+        itemModelGenerator.register(Foods.SHADOW_BERRY_JUICE,Models.GENERATED);
+        itemModelGenerator.register(Foods.BLOSSOM_BERRY_JUICE, Models.GENERATED);
+        itemModelGenerator.register(Foods.APPLE_JELLY,Models.GENERATED);
+        itemModelGenerator.register(Foods.MELON_JELLY, Models.GENERATED);
+        itemModelGenerator.register(Foods.MILK_JELLY, Models.GENERATED);
 
     }
     private static void crateBlock(Block block, BlockStateModelGenerator blockStateModelGenerator) {

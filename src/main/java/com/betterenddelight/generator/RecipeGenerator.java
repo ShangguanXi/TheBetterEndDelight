@@ -181,6 +181,24 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .addInput(Items.SUGAR,1)
                 .addInput(Items.POTION,1)
                 .build();
+        shapelessRecipe(exporter,RecipeCategory.FOOD,Foods.APPLE_JELLY,1)
+                .addInput(Items.APPLE,1)
+                .addInput(EndItems.GELATINE,1)
+                .addInput(Items.SUGAR,1)
+                .addInput(Items.POTION,1)
+                .build();
+        shapelessRecipe(exporter,RecipeCategory.FOOD,Foods.MELON_JELLY,1)
+                .addInput(Items.MELON_SLICE,1)
+                .addInput(EndItems.GELATINE,1)
+                .addInput(Items.SUGAR,1)
+                .addInput(Items.POTION,1)
+                .build();
+        shapelessRecipe(exporter,RecipeCategory.FOOD,Foods.MILK_JELLY,1)
+                .addInput(ConventionalTags.MILK_BOTTLE,1)
+                .addInput(EndItems.GELATINE,1)
+                .addInput(Items.SUGAR,1)
+                .addInput(Items.POTION,1)
+                .build();
 
         cookRecipeFromItem(exporter,RecipeCategory.FOOD,Foods.END_FISH_SLICE,Foods.COOKED_END_FISH_SLICE,0.5F,300);
         cookRecipeFromItem(exporter,RecipeCategory.FOOD,Foods.NEON_CACTUS_SLICE,Foods.COOKED_NEON_CACTUS_SLICE,0.5F,300);
