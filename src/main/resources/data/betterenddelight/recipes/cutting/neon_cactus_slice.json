@@ -2,13 +2,13 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "betterenddelight:neon_cactus_slice"
+      "item": "betterend:neon_cactus"
     }
   ],
   "result": [
     {
       "count": 4,
-      "item": "betterenddelight:cooked_neon_cactus_slice"
+      "item": "betterenddelight:neon_cactus_slice"
     }
   ],
   "tool": {
