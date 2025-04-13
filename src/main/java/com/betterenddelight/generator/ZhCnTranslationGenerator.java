@@ -60,6 +60,7 @@ public class ZhCnTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Knives.THALLASIUM_KNIFE, "末影铁刀");
         translationBuilder.add(Knives.TERMINITE_KNIFE, "终末合金刀");
         translationBuilder.add(Knives.AETERNIUM_KNIFE, "太古合金刀");
+        translationBuilder.add(Knives.AMBER_KNIFE, "琥珀刀");
         translationBuilder.add(Tools.LUMECORN_CUDGEL, "流明玉米棒槌");
         translationBuilder.add(Foods.COOKED_END_FISH_SLICE,"熟末地鱼片");
         translationBuilder.add(Foods.END_FISH_SLICE,"生末地鱼片");
@@ -87,6 +88,7 @@ public class ZhCnTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Foods.SHADOW_WALKER_MEAT_COOKED,"熟影肉");
         translationBuilder.add(Foods.ENDSHADE_BARBECUE_STICK,"末黯肉串");
         translationBuilder.add(Foods.COOKED_SMALL_JELLYSHROOM,"熟小型果冻菌");
+        translationBuilder.add(Foods.SHADOW_WALKER_SANDWICH,"影肉三明治");
 
     }
 }

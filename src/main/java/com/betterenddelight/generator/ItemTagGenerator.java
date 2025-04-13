@@ -69,7 +69,8 @@ public class ItemTagGenerator extends  FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.KNIVES)
                 .add(Knives.THALLASIUM_KNIFE)
                 .add(Knives.TERMINITE_KNIFE)
-                .add(Knives.AETERNIUM_KNIFE);
+                .add(Knives.AETERNIUM_KNIFE)
+                .add(Knives.AMBER_KNIFE);
         getOrCreateTagBuilder(ModTags.CABINETS)
                 .add(Knives.THALLASIUM_KNIFE)
                 .add(Knives.TERMINITE_KNIFE)

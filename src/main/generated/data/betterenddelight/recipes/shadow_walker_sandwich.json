@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterenddelight:shadow_walker_meat_cooked"
+    },
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "item": "betterend:hydralux_petal"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:shadow_walker_sandwich"
+  }
+}

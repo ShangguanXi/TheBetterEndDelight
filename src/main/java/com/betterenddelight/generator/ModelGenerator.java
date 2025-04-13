@@ -45,6 +45,7 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(Knives.THALLASIUM_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(Knives.TERMINITE_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(Knives.AETERNIUM_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(Knives.AMBER_KNIFE, Models.HANDHELD);
 
         itemModelGenerator.register(Tools.LUMECORN_CUDGEL, Models.HANDHELD);
 
@@ -80,6 +81,7 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(Foods.SHADOW_WALKER_MEAT_COOKED, Models.GENERATED);
         itemModelGenerator.register(Foods.ENDSHADE_BARBECUE_STICK, Models.GENERATED);
         itemModelGenerator.register(Foods.COOKED_SMALL_JELLYSHROOM, Models.GENERATED);
+        itemModelGenerator.register(Foods.SHADOW_WALKER_SANDWICH, Models.GENERATED);
 
     }
     private static void crateBlock(Block block, BlockStateModelGenerator blockStateModelGenerator) {

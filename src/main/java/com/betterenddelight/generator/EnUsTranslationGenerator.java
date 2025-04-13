@@ -49,6 +49,7 @@ public class EnUsTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Knives.THALLASIUM_KNIFE, "Thallasium Knife");
         translationBuilder.add(Knives.TERMINITE_KNIFE, "Terminite Knife");
         translationBuilder.add(Knives.AETERNIUM_KNIFE, "Aeternium Knife");
+        translationBuilder.add(Knives.AMBER_KNIFE, "Amber Knife");
         translationBuilder.add(Tools.LUMECORN_CUDGEL, "Lumecorn Cudgel");
 
         translationBuilder.add(Foods.COOKED_END_FISH_SLICE,"Cooked End Fish Slice");
@@ -87,6 +88,7 @@ public class EnUsTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Foods.SHADOW_WALKER_MEAT_COOKED,"Cooked Shadow Meat");
         translationBuilder.add(Foods.ENDSHADE_BARBECUE_STICK,"Endshade Barbecue");
         translationBuilder.add(Foods.COOKED_SMALL_JELLYSHROOM,"Cooked Small Jellyshroom");
+        translationBuilder.add(Foods.SHADOW_WALKER_SANDWICH,"Shadow Walker Sandwich");
 
     }
 }

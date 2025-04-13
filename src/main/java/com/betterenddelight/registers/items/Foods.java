@@ -53,6 +53,8 @@ public class Foods {
     public static final Item SHADOW_WALKER_MEAT_RAW = ItemRegister.register("shadow_walker_meat_raw", new Item(new Item.Settings().food(FoodValues.SHADOW_WALKER_MEAT_RAW)));
     public static final Item SHADOW_WALKER_MEAT_COOKED = ItemRegister.register("shadow_walker_meat_cooked", new Item(new Item.Settings().food(FoodValues.SHADOW_WALKER_MEAT_COOKED)));
 
+    public static final Item SHADOW_WALKER_SANDWICH = ItemRegister.register("shadow_walker_sandwich", new Item(new Item.Settings().food(FoodValues.SHADOW_WALKER_SANDWICH)));
+
     public static final Item ENDSHADE_BARBECUE_STICK = ItemRegister.register("endshade_barbecue_stick", new StickFood(new Item.Settings().food(FoodValues.ENDSHADE_BARBECUE_STICK),true));
     // 碗食物 BowlFoods
     public static final Item AMARANITA_MUSHROOM_RICE = ItemRegister.register("amaranita_mushroom_rice", new StewItem(new Item.Settings().food(FoodValues.AMARANITA_MUSHROOM_RICE).maxCount(16)));

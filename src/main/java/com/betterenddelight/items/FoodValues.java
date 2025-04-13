@@ -35,5 +35,6 @@ public class FoodValues {
     public static final FoodComponent ENDSHADE_BARBECUE_STICK = new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(EndStatusEffects.END_VEIL, 1200, 0), 1.0F).build(); ;
 
     public static final FoodComponent COOKED_SMALL_JELLYSHROOM = new FoodComponent.Builder().hunger(4).saturationModifier(0.3f).build(); ;
+    public static final FoodComponent SHADOW_WALKER_SANDWICH = new FoodComponent.Builder().hunger(12).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(EndStatusEffects.END_VEIL, 1600, 0),1.0F).build();
 
 }

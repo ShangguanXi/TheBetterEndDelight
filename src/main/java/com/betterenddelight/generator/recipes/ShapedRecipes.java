@@ -4,6 +4,7 @@ import com.betterenddelight.registers.blocks.Cabinets;
 import com.betterenddelight.registers.blocks.PetalCarpetBlocks;
 import com.betterenddelight.registers.blocks.Pies;
 import com.betterenddelight.registers.items.Foods;
+import com.betterenddelight.registers.items.Knives;
 import com.betterenddelight.registers.items.Tools;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.RecipeProvider;
@@ -23,6 +24,11 @@ import org.betterx.bclib.complexmaterials.WoodenComplexMaterial;
 
 public class ShapedRecipes {
     public static void initialize(Consumer<RecipeJsonProvider> exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, Knives.AMBER_KNIFE)
+                .pattern("A")
+                .pattern("B")
+                .input('A', EndItems.AMBER_GEM)
+                .input('B', Items.STICK);
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, Pies.BLOSSOM_BERRY_CHEESECAKE.asItem())
                 .pattern("AAA")
                 .pattern("AAA")
