@@ -1,11 +1,10 @@
 package com.betterenddelight;
 
-import com.betterenddelight.registers.BlockRegister;
-import com.betterenddelight.registers.ItemGroupRegister;
-import com.betterenddelight.registers.ItemRegister;
-import com.betterenddelight.registers.TagRegister;
+import com.betterenddelight.registers.*;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +22,9 @@ public class BetterEndDelight implements ModInitializer {
 	public static @NotNull Identifier makeId(String name) {
 		return ROOT.withPath(name);
 	}
+	public static <T> @NotNull RegistryKey<T> makeKey(RegistryKey<? extends Registry<T>> registry, String name) {
+		return RegistryKey.of(registry, ROOT.withPath(name));
+	}
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -32,7 +34,8 @@ public class BetterEndDelight implements ModInitializer {
 		BlockRegister.initialize();
 		ItemRegister.initialize();
 		TagRegister.initialize();
-		TagRegister.initialize();
+		FeatureRegister.initialize();
+
 		LOGGER.info("Hello Fabric world!");
 	}
 }

@@ -83,6 +83,10 @@ public class EnUsTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Foods.MELON_JELLY,"Melon Jelly");
         translationBuilder.add(Foods.APPLE_JELLY,"Apple Jelly");
         translationBuilder.add(Foods.MILK_JELLY,"Milk Jelly");
+        translationBuilder.add(Foods.SHADOW_WALKER_MEAT_RAW,"Raw Shadow Meat");
+        translationBuilder.add(Foods.SHADOW_WALKER_MEAT_COOKED,"Cooked Shadow Meat");
+        translationBuilder.add(Foods.ENDSHADE_BARBECUE_STICK,"Endshade Barbecue");
+        translationBuilder.add(Foods.COOKED_SMALL_JELLYSHROOM,"Cooked Small Jellyshroom");
 
     }
 }

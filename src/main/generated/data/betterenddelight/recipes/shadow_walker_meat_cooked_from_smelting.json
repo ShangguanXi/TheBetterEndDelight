@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "betterenddelight:shadow_walker_meat_raw"
+  },
+  "result": "betterenddelight:shadow_walker_meat_cooked"
+}

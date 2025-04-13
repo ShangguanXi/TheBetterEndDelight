@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shadow_walker_meat_cooked": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterenddelight:shadow_walker_meat_cooked"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterenddelight:endshade_barbecue_stick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shadow_walker_meat_cooked",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterenddelight:endshade_barbecue_stick"
+    ]
+  },
+  "sends_telemetry_event": false
+}

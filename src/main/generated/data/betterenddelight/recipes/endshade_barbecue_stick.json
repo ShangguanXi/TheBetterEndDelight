@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterenddelight:shadow_walker_meat_cooked"
+    },
+    {
+      "tag": "betterenddelight:cooked_end_fish"
+    },
+    {
+      "item": "betterend:chorus_mushroom_cooked"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "betterenddelight:endshade_barbecue_stick"
+  }
+}

@@ -83,6 +83,10 @@ public class ZhCnTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(Foods.MELON_JELLY,"西瓜果冻");
         translationBuilder.add(Foods.APPLE_JELLY,"苹果冻");
         translationBuilder.add(Foods.MILK_JELLY,"牛奶果冻");
+        translationBuilder.add(Foods.SHADOW_WALKER_MEAT_RAW,"生影肉");
+        translationBuilder.add(Foods.SHADOW_WALKER_MEAT_COOKED,"熟影肉");
+        translationBuilder.add(Foods.ENDSHADE_BARBECUE_STICK,"末黯肉串");
+        translationBuilder.add(Foods.COOKED_SMALL_JELLYSHROOM,"熟小型果冻菌");
 
     }
 }

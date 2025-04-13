@@ -1,12 +1,16 @@
 package com.betterenddelight.generator;
 
+import com.betterenddelight.registers.TagRegister;
 import com.betterenddelight.registers.blocks.Cabinets;
 import com.betterenddelight.registers.blocks.Crates;
 import com.betterenddelight.registers.blocks.WildCrops;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.TagKey;
+import org.betterx.betterend.registry.EndBlocks;
 import vectorwing.farmersdelight.common.tag.ModTags;
 
 import java.util.concurrent.CompletableFuture;
@@ -28,6 +32,10 @@ public class BlockTagGenerator extends  FabricTagProvider.BlockTagProvider {
     }
 
     private void BetterEndDelightTags() {
+        getOrCreateTagBuilder(TagRegister.ALOE_VERA_CAN_PLANT)
+                .add(EndBlocks.JUNGLE_MOSS)
+                .addOptionalTag(BlockTags.DIRT)
+                .addOptionalTag(BlockTags.SAND);
     }
 
     private void MinecraftTags() {

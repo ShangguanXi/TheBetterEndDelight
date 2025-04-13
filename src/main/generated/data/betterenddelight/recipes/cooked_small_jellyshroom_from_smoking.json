@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "betterend:small_jellyshroom"
+  },
+  "result": "betterenddelight:cooked_small_jellyshroom"
+}

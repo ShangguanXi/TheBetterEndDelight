@@ -76,6 +76,10 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(Foods.APPLE_JELLY,Models.GENERATED);
         itemModelGenerator.register(Foods.MELON_JELLY, Models.GENERATED);
         itemModelGenerator.register(Foods.MILK_JELLY, Models.GENERATED);
+        itemModelGenerator.register(Foods.SHADOW_WALKER_MEAT_RAW, Models.GENERATED);
+        itemModelGenerator.register(Foods.SHADOW_WALKER_MEAT_COOKED, Models.GENERATED);
+        itemModelGenerator.register(Foods.ENDSHADE_BARBECUE_STICK, Models.GENERATED);
+        itemModelGenerator.register(Foods.COOKED_SMALL_JELLYSHROOM, Models.GENERATED);
 
     }
     private static void crateBlock(Block block, BlockStateModelGenerator blockStateModelGenerator) {

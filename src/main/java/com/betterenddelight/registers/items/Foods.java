@@ -3,6 +3,7 @@ package com.betterenddelight.registers.items;
 import com.betterenddelight.items.FoodValues;
 import com.betterenddelight.items.MilkJelly;
 import com.betterenddelight.items.Popsicle;
+import com.betterenddelight.items.StickFood;
 import com.betterenddelight.registers.ItemRegister;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.FoodComponents;
@@ -39,6 +40,8 @@ public class Foods {
     public static final Item MILK_JELLY = ItemRegister.register("milk_jelly", new MilkJelly(new Item.Settings().food(EndItems.SWEET_BERRY_JELLY.getFoodComponent())));
 
     public static final Item COOKED_POLYPORE = ItemRegister.register("cooked_polypore", new Item(new Item.Settings().food(FoodValues.COOKED_POLYPORE)));
+    public static final Item COOKED_SMALL_JELLYSHROOM = ItemRegister.register("cooked_small_jellyshroom", new Item(new Item.Settings().food(FoodValues.COOKED_SMALL_JELLYSHROOM)));
+
     public static final Item NEON_CACTUS_SLICE = ItemRegister.register("neon_cactus_slice", new Item(new Item.Settings().food(FoodValues.NEON_CACTUS_SLICE)));
     public static final Item COOKED_NEON_CACTUS_SLICE = ItemRegister.register("cooked_neon_cactus_slice", new Item(new Item.Settings().food(FoodValues.COOKED_NEON_CACTUS_SLICE)));
 
@@ -47,6 +50,10 @@ public class Foods {
     public static final Item BLOSSOM_BERRY_JUICE = ItemRegister.register("blossom_berry_juice", new DrinkableItem(new Item.Settings().food(ModItems.APPLE_CIDER.get().getFoodComponent()), true));
     public static final Item SHADOW_BERRY_JUICE = ItemRegister.register("shadow_berry_juice", new DrinkableItem(new Item.Settings().food(ModItems.APPLE_CIDER.get().getFoodComponent()), true));
 
+    public static final Item SHADOW_WALKER_MEAT_RAW = ItemRegister.register("shadow_walker_meat_raw", new Item(new Item.Settings().food(FoodValues.SHADOW_WALKER_MEAT_RAW)));
+    public static final Item SHADOW_WALKER_MEAT_COOKED = ItemRegister.register("shadow_walker_meat_cooked", new Item(new Item.Settings().food(FoodValues.SHADOW_WALKER_MEAT_COOKED)));
+
+    public static final Item ENDSHADE_BARBECUE_STICK = ItemRegister.register("endshade_barbecue_stick", new StickFood(new Item.Settings().food(FoodValues.ENDSHADE_BARBECUE_STICK),true));
     // 碗食物 BowlFoods
     public static final Item AMARANITA_MUSHROOM_RICE = ItemRegister.register("amaranita_mushroom_rice", new StewItem(new Item.Settings().food(FoodValues.AMARANITA_MUSHROOM_RICE).maxCount(16)));
 

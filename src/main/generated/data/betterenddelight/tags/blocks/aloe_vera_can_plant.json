@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "betterend:jungle_moss",
+    {
+      "id": "#minecraft:dirt",
+      "required": false
+    },
+    {
+      "id": "#minecraft:sand",
+      "required": false
+    }
+  ]
+}

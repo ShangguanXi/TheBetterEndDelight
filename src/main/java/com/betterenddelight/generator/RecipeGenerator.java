@@ -199,14 +199,24 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .addInput(Items.SUGAR,1)
                 .addInput(Items.POTION,1)
                 .build();
+        shapelessRecipe(exporter,RecipeCategory.FOOD,Foods.ENDSHADE_BARBECUE_STICK,1)
+                .addInput(Foods.SHADOW_WALKER_MEAT_COOKED,1)
+                .addInput(TagRegister.COOKED_END_FISH,1)
+                .addInput(EndItems.CHORUS_MUSHROOM_COOKED,1)
+                .addInput(Items.STICK,1)
+                .addInput(Items.STICK,1)
+                .build();
 
         cookRecipeFromItem(exporter,RecipeCategory.FOOD,Foods.END_FISH_SLICE,Foods.COOKED_END_FISH_SLICE,0.5F,300);
         cookRecipeFromItem(exporter,RecipeCategory.FOOD,Foods.NEON_CACTUS_SLICE,Foods.COOKED_NEON_CACTUS_SLICE,0.5F,300);
+        cookRecipeFromItem(exporter,RecipeCategory.FOOD,Foods.SHADOW_WALKER_MEAT_RAW,Foods.SHADOW_WALKER_MEAT_COOKED,0.5F,300);
+        cookRecipeFromItem(exporter,RecipeCategory.FOOD,EndBlocks.SMALL_JELLYSHROOM.asItem(),Foods.COOKED_SMALL_JELLYSHROOM,0.5F,300);
+
+        cookRecipeFromTag(exporter,RecipeCategory.FOOD, TagRegister.POLYPORE, Foods.COOKED_POLYPORE,0.5F,300);
 
         smithingRecipe(exporter,RecipeCategory.TOOLS, EndItems.AETERNIUM_INGOT,EndItems.LEATHER_WRAPPED_STICK, EndTemplates.TOOL_ASSEMBLY, Knives.AETERNIUM_KNIFE);
         smithingRecipe(exporter,RecipeCategory.TOOLS, EndBlocks.THALLASIUM.ingot ,Items.STICK, EndTemplates.TOOL_ASSEMBLY, Knives.THALLASIUM_KNIFE);
         smithingRecipe(exporter,RecipeCategory.TOOLS, EndBlocks.TERMINITE.ingot ,Items.STICK, EndTemplates.TOOL_ASSEMBLY, Knives.TERMINITE_KNIFE);
-        cookRecipeFromTag(exporter,RecipeCategory.FOOD, TagRegister.POLYPORE, Foods.COOKED_POLYPORE,0.5F,300);
          }
 
 }

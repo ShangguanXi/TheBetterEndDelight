@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "betterend:small_jellyshroom"
+  },
+  "result": "betterenddelight:cooked_small_jellyshroom"
+}
